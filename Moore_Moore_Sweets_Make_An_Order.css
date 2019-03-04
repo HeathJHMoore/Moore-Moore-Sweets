@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+#container {
+    
+}
+
+.Header {
+    border: solid 1px black;
+    --background-color: #9d91e0;
+    background-color: #c5b1d8;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+
+.Header-Content {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 15px 10px 0px 10px;
+}
+
+#Header-title {
+    padding-bottom: 0px;
+}
+
+#navigation-bar {
+    padding-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+    font-size: 18px;
+    --border: solid 1px black;
+}
+
+#navigation-bar li {
+    cursor: pointer;
+}
+
+#instagram a {
+    color: white;
+    text-decoration: none;
+}
+
+#home a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigation-bar li:hover {
+    font-weight: bold;
+}
+
+body {
+    background-color: #e6dcef;
+}
+
+#Form_Header {
+    position: relative;
+    top: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 22px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+#Form_Container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #c5b1d8;
+    position: absolute;
+    margin: auto;
+    top: 170px;
+    height: 450px;
+    width:65%;
+    /* left: 300px; */
+    border-radius: 15px;
+    --border: solid 1px black;
+}
+
+
+#Input_Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Form_Flex_Container {
+    margin-top: 10px;
+}
+
+#Name_Label {
+    color: white;
+    /* position: relative; */
+    font-size: 20px;
+    /* margin-left: 30px; */
+    /* margin-top: 15px; */
+    height: 25px;
+}
+
+#Name_Input {
+    /* margin: 15px 0px 0px 5px; */
+    padding: 5px;
+    font-size: 15px;
+}
+
+#Email_Label {
+    color: white;
+    /* position: relative; */
+    font-size: 20px;
+    /* margin-left: 15px; */
+    height: 25px;
+    /* margin-top: 15px; */
+}
+
+#Email_Input {
+    /* margin: 15px 0px 0px 5px; */
+    padding: 5px;
+    font-size: 15px;
+}
+
+#Delivery_Date_Label {
+    color: white;
+    /* position: relative; */
+    font-size: 20px;
+    /* margin-left: 15px; */
+    height: 25px;
+    /* margin-top: 15px; */
+}
+
+#Delivery_Date_Input {
+    /* margin: 15px 0px 0px 5px; */
+    padding: 3px;
+    font-size: 15px;
+}
