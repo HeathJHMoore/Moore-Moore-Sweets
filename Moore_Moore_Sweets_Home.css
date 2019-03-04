@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    border: solid 1px black;
+    --background-color: #9d91e0;
+    background-color: #c5b1d8;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+
+.Header-Content {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 15px 10px 0px 10px;
+}
+
+#Header-title {
+    padding-bottom: 0px;
+}
+
+#navigation-bar {
+    padding-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+    font-size: 18px;
+    --border: solid 1px black;
+}
+
+#navigation-bar li {
+    cursor: pointer;
+}
+
+#instagram a {
+    color: white;
+    text-decoration: none;
+}
+
+#order a {
+    color: white;
+    text-decoration: none;
+}
+
+#push {
+    --margin-bottom: 47px;
+}
+
+#Background {
+    background-color: #e6dcef;
+    position: relative;
+    top:47px;
+}
+
+#navigation-bar li:hover {
+    font-weight: bold;
+}
+
+#Photo-Carousel-Line-1 {
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+}
+
+.Carousel-image {
+    border: solid 5px black;
+    margin: 0px 0px 0px 0px;
+}
+
+#Photo-Carousel-Line-2 {
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+}
+
+#Text-background {
+    height: 200px;
+    background-color: #c5b1d8;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#image-backdrop {
+    position: absolute;
+    opacity: .6;
+    z-index: 0;
+}
+
+#content-box {
+    display: flex;
+    --border: 2px solid black;
+    background-color: white;
+    padding: 0px 30px;
+    width:100%;
+    height: 50%;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*
+@keyframes slideIN {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
